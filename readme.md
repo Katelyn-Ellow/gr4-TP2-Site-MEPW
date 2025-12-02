@@ -6,3 +6,4 @@ Les bars à chats sont devenus des lieux de détente uniques où les visiteurs p
 Auteur: S-K
 Cours: 1W1 Mise en pae Web
 College Maisonneuves
+Github page; https://github.com/Katelyn-Ellow/gr4-TP2-Site-MEPW
