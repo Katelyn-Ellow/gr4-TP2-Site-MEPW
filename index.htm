@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-----------------Les liens qui support se site------------------>
+    <title>TP2-Site</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!----------------------------1ER Titre---------------------------------------->
+   <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+   <!----------------------------2EME Menu---------------------------------------->
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+   <!----------------------------3EME PIED---------------------------------------->
+   <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+
+</head>
+  <body>
+    <!---------------------Hero------------------------------------------------------------------->
+    <div class="conteneur hero">
+      <header class="centre hero__header" id="accueil">
+        <h1 class="font-titre">Bar à chats</h1>
+     <!-----------navigation class----------------->
+         <div class="navigation">
+     <!-------------------l'icon--------------------->
+      <label for="chk-burger" class="menu__burger">
+       <img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000" width="32" height="32">
+      </label>
+
+      <!--qui chase le checkbox de menu-->
+      <input type="checkbox" id="chk-burger" />
+
+        <!--Navigation liens-->
+        <nav class="menu">
+          <a href="#accueil" class="menu__a">Accueil</a>
+          <a href="#tableau" class="menu__a">Tableau de Menu</a>
+          <a href="#article" class="menu__a">Article</a>
+          <a href="#videos" class="menu__a">Fameux videos</a>
+          <a href="#galerie" class="menu__a">Galeries de Chats</a>
+          <a href="#inscription" class="menu__a">Inscription</a>
+          <a href="#pied" class="menu__a">Pied de Page</a>
+        </nav>
+        
+        <!-----------navigation class----------------->
+        
+
+
+        <!-----------titres et textes----------------->
+        <h2>Choisi ton repas et tes petits amis!</h2>
+        
+        <h3>Business de </h3>
+        
+        <h3>Horaire des fêtes de noël (Pour nos 2 adresses Duluth et Ontario):</h3>
+    
+
+        <p>Lundi 23 décembre au mercredi 25 décembre: FERMÉ</p>
+         <p>jeudi 26 au dimanche 30 décembre OUVERT 11h à 20h
+         <p>Lundi 30 décembre au mercredi 1er janvier 2025: FERMÉ
+         <p>Retour à l'horaire habituel à partir du jeudi 2 janvier: mardi au dimanche de 11h à 20h
+         <p>Pendant les mois d'hiver, nous demandons de retirer les chaussures en entrant. Si vous le souhaitez, pensez à prendre une paire de chaussure ou de pantoufle pour l'intérieur. Nous avons des pantoufles disponibles.
+         <p>Nous demandons de retirer les chaussures à cause du sel utilisé pour déneiger les rues de Montréal qui est toxique pour les chats. Nous encourageons le monde a prendre leurs chaussures avec eux avec les bacs mis à disposition dans notre entrée.
+         <p>Merci de votre coopération.</p>
+
+         <p><strong>Inscrivez-vous pour des futures reservations!</strong></p>
+ 
+      
+        <!-----------boutton inscription----------------->
+        <a class=hero__button href="#inscription">Inscription</a>
+        </header>
+    </div>
+    <!------------------------------------Section Tableau( Menu repas)------------------------------------>
+
+   
+        
+      <div class="conteneur">
+      <section class="centre" id="tableau">
+        <h2>Menu du Bar à Chats</h2>
+
+      <table class="menu-table">
+        <thread>
+          <tr>
+            <th>Menu</th>
+            <th>Description</th>
+            <th>Prix</th>
+          </tr>
+       </thread>
+
+          <tbody>
+            <tr>
+              <td>Café Chat-Latté</td>
+              <td>Légèrement sucré avec mousse de lait</td>
+              <td>4,99$</td>
+            </tr>
+
+            <tr>
+              <td>Milkshake “Minou”</td>
+              <td>Vanille + caramel</td>
+              <td>6,49$</td>
+            </tr>
+
+            <tr>
+              <td>Sandwich Croc'Chat</td>
+              <td>Fromage & poulet</td>
+              <td>13$</td>
+            </tr>
+
+            <tr>
+              <td>Clafoutis aux framboises</td>
+              <td>Avec coulis de bleuets</td>
+              <td>8,99$</td>
+            </tr>
+
+            <tr>
+              <td>Chaï Thée</td>
+              <td>Fromage & poulet</td>
+              <td>8,99$</td>
+            </tr>
+
+            <tr>
+              <td>Cat Gentlemen</td>
+              <td>Pain de campagne, feta, cheddar, pesto et légumes grillés</td>
+              <td>8,99$</td>
+            </tr>
+
+            <tr>
+              <td>La ronron</td>
+              <td>Mixt salad, goat cheese, quinoa, pickled onions, pomegranate or peach, green apple, almonds and maple dressing</td>
+              <td>5,99$</td>
+            </tr>
+
+            <tr>
+              <td>Cat lady</td>
+              <td>Pain de campagne, tartinade de figues, miel, chèvre, cheddar et oignons caramélisés</td>
+              <td>12$</td>
+            </tr>
+
+            <tr>
+              <td>Brownie</td>
+              <td>Avec caramel maison et pacanes grillées à l'érable</td>
+              <td>8,99$</td>
+            </tr>
+            
+            <tr>
+              <td>Mexi-chat</td>
+              <td>Pain de campagne, cheddar, feta, salsa de mais et de tomates, oignons marinés, coriandre, sauce piquante</td>
+              <td>15$</td>
+            </tr>
+
+            <tr>
+              <td>La pèle-mèle</td>
+              <td>Choux-fleurs rôtis aux épices, pois chiches, canneberges séchées, oignons marinés, pacanes rôties, coriandre et vinaigrette au cumin</td>
+              <td>3,99$</td>
+            </tr>
+
+            <tr>
+              <td>Diabolo</td>
+              <td>Boisson gazeuse au citron et sirop de fruit au choix (fraise, framboise, fruit de la passion)</td>
+              <td>9,99$</td>
+            </tr>
+
+            <tr>
+              <td>London fog</td>
+              <td>Thé earl grey infusé, lait chaud et vanille</td>
+              <td>1,99$</td>
+            </tr>
+
+            <tr>
+              <td>Gâteau au fromage</td>
+              <td>Avec coulis de fraises et rhubarbes et amandes rôties</td>
+              <td>5,99$</td>
+            </tr>
+
+
+        </tbody>
+        </table>
+
+      </section>
+    </div>
+
+<!---------------------------------------------------Article--------------------------------------------------------------------->
+
+<div class="conteneur">
+  <section class="centre article-section" id="article">
+    
+    <h2 class="article__titre-principal">L'Univers des Bars à Chats</h2>
+    <h3 class="article__titre-secondaire">Une expérience inspirée du Café Chat L'Heureux</h3>
+
+    <div class="article__colonnes">
+
+      <article class="article__colonne">
+
+        <p>
+          Les bars à chats sont devenus des lieux de détente uniques où les visiteurs peuvent savourer une boisson chaude en compagnie de félins adorables. 
+          Inspiré par des établissements comme 
+          <strong>Café Chat l'Heureux à Montréal</strong>, notre espace vise à offrir une ambiance chaleureuse axée sur le bien-être animal et la connexion humaine.
+          <img src="images/lieu.png" class="article__img" alt="Chat café">
+        </p>
+
+        <p>
+          Dans ces cafés, chaque chat possède sa propre personnalité, rendant l'expérience différente à chaque visite. Certains félins se montrent joueurs, tandis que d’autres préfèrent dormir paisiblement près d’une fenêtre ensoleillée.
+          <img src="images/chat heureux.png" class="article__img" alt="Chat relax">
+        </p>
+
+      </article>
+         <article class="article__colonne">
+
+        <p>
+          L'objectif principal d'un bar à chats est d'offrir un environnement calme, idéal pour étudier, discuter ou simplement prendre un moment pour soi. 
+          Plusieurs cafés renommés au Québec et ailleurs collaborent même avec des refuges pour encourager l'adoption responsable.
+          <img src="images/adoption.jpg" class="article__img" alt="Chat adoption">
+        </p>
+
+        <p>
+          Aujourd'hui, les bars à chats sont bien plus qu'un simple café : ce sont des lieux sociaux, communautaires et relaxants. 
+          Une tasse de thé, un brownie… et un chat sur les genoux : le combo parfait!
+          <img src="images/dessert chat.png" class="article__img" alt="Chats mignons">
+      </p>
+
+    </article>
+</div>
+
+  </section>
+</div>
+
+<!-----------------------------------------Sections Videos-------------------------------------------------------->
+   
+<div class="conteneur">
+      <section class="centre" id="videos">
+         <h2 class="videos__titre">Fameux videos de nos anciens félins</h2>
+    
+    <p class="videos__intro">
+       <strong> Denos petits amis! </strong>
+    </p>
+
+    <div class="videos__conteneur">
+         <div class="video-item">
+            <iframe 
+              src="https://www.youtube.com/embed/vsmpMzfLICA"
+              title="Chat Café Heureux Montreal"
+              allowfullscreen>
+            </iframe>
+            <h3>Chat Café Heureux,  "J'aime trop bien!" review.</h3>
+        </div>
+
+        <div class="video-item">
+            <iframe 
+              src="https://www.youtube.com/embed/SlIkg2LL0v8"
+              title="Chat Café Heureux Montreal"
+              allowfullscreen>
+            </iframe>
+            <h3>Chat Café Heureux, "L'atmosphere est superperb!" review.</h3>
+        </div>
+
+        <div class="video-item">
+            <iframe 
+              src="https://www.youtube.com/embed/kfjMQUmd92A"
+              title="Compilations de nos chat!"
+              allowfullscreen>
+            </iframe>
+            <h3>Des chats drôles qui vous feront sourire!</h3>
+        </div>
+      </section>
+    </div>
+
+ <!-------------------------------------------------Galeries------------------------------------------------------------------>   
+<div class="conteneur">
+  <section class="centre galerie-section" id="galerie">
+
+    <h2 class="galerie__titre">Galerie des Chats</h2>
+
+    <div class="galerie__images">
+      <img src="images/mur de chat.jpg" alt="Chat 1">
+      <img src="images/chats.jpg" alt="Chat 2">
+      <img src="images/chat avec cafee.jpg" alt="Chat 3">
+      <img src="images/petits boutiques.jpg" alt="Chat 4">
+      <img src="images/business.jpg" alt="Chat 5">
+      <img src="images/mur chat.jpg" alt="Chat 6">
+      <img src="images/dessert 2.jpg" alt="Chat 7">
+      <img src="images/plat.jpg" alt="Chat 7">
+      <img src="images/limit chat.jpg" alt="Chat 7">
+    </div>
+
+  </section>
+</div>
+ <!------------------------------------------------------------------------------------------------------------------->   
+
+    <!--------------------------------------------Le formulaire------------------------------------>
+    <div class="conteneur">
+      <section class="centre formulaire-section" id="inscription">
+
+        <h2>Inscription</h2>
+      
+        <form class="formulaire">
+   <div class="formulaire__div">
+        <label class= "formulaire__label" for="nom">Nom</label>
+        <input class= "formulaire__input" id="nom" type="text" placeholder="Enter last name">
+
+   
+        <label class= "formulaire__label" for="prenom">Prenom</label>
+        <input class= "formulaire__input" id="prenom" type="text" placeholder="Enter first name">
+        </div>
+    <div class="formulaire__div">
+     
+        <label class= "formulaire__label" for="couriel">Courriel</label>
+        <input class= "formulaire__input" id="couriel" type="email" placeholder="Enter email here">
+        </div>
+        <fieldset>
+          <legend>Abonnement</legend>
+          <label for="rad-1">Novice</label>
+          <input type="radio" name=" rad-abonnement" id="rad-1" class="formulaire__rad">
+          <label for="rad-2">Intermediere</label>
+          <input type="radio" name=" rad-abonnement" id="rad-2" class="fomulaire__rad">
+          <label for="rad-3">Pro</label>
+          <input type="radio" name=" rad-abonnement" id="rad-3" class="formulaire__rad">
+        </fieldset>
+    <input class="formulaire__submit" type="submit" value="Validate!">
+     </form>
+        </section>
+    </div>
+    <!----------------------------------------Pied Page-------------------------------------------->
+
+    <div class="conteneur">
+      <footer class="pied centre" id="pied">
+        <h2>Pied de Page</h2>
+
+    <div class="pied__colonne">
+          <h3>Navigation</h3>
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#tableau">Menu</a></li>
+            <li><a href="#inscription">Inscription</a></li>
+          </ul>
+        </div>
+
+        <div class="pied__colonne">
+          <h3>À propos</h3>
+          <p>Bar à Chats — Espace détente</p>
+          <p>Montréal, QC</p>
+          <p>Ouvert 7 jours</p>
+        </div>
+
+        <div class="pied__colonne">
+          <h3>Contact</h3>
+          <ul>
+            <li>info@barachats.ca</li>
+            <li>514-123-4567</li>
+          </ul>
+        </div>
+
+        <div class="pied__bas">
+          © 2025 Bar à Chats — Tous droits réservés.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
