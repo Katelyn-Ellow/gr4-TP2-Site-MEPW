@@ -16,13 +16,20 @@
    <!----------------------------3EME PIED---------------------------------------->
    <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
 
+   <!-------------------------Icon pour Github----------------------------------------->
+
+
 
 </head>
   <body>
-    <!---------------------Hero------------------------------------------------------------------->
+    <!---------------------------------------------------Hero------------------------------------------------------------------->
     <div class="conteneur hero">
       <header class="centre hero__header" id="accueil">
         <h1 class="font-titre">Bar à chats</h1>
+    <!-----------------------------------------------Icon pour Github------------------------------------------------------------------->
+    <a class="hero__github" href="https://github.com/Katelyn-Ellow/gr4-TP2-Site-MEPW" target="_blank">
+    <img src="https://s2.svgbox.net/social.svg?ic=github&color=000" width="32" height="32">
+    </a>
      <!-----------navigation class----------------->
          <div class="navigation">
      <!-------------------l'icon--------------------->
@@ -65,8 +72,10 @@
          <p>Merci de votre coopération.</p>
 
          <p><strong>Inscrivez-vous pour des futures reservations!</strong></p>
- 
-      
+
+        
+
+
         <!-----------boutton inscription----------------->
         <a class=hero__button href="#inscription">Inscription</a>
         </header>
@@ -188,39 +197,74 @@
     <h2 class="article__titre-principal">L'Univers des Bars à Chats</h2>
     <h3 class="article__titre-secondaire">Une expérience inspirée du Café Chat L'Heureux</h3>
 
-    <div class="article__colonnes">
+    <div class="article_div">
+<!----------------Premiere article-------------->
+      <article class="article">
+        <figure class="article__figure">
+          <img class="article__img" src="images/lieu.png" alt="Chat café">
+          <figcaption>Ambiance chaleureuse</figcaption>
+        </figure>
 
-      <article class="article__colonne">
-
+      <div class="article__texte">
+        <h3> Une atmosphère unique</h3>
         <p>
-          Les bars à chats sont devenus des lieux de détente uniques où les visiteurs peuvent savourer une boisson chaude en compagnie de félins adorables. 
-          Inspiré par des établissements comme 
-          <strong>Café Chat l'Heureux à Montréal</strong>, notre espace vise à offrir une ambiance chaleureuse axée sur le bien-être animal et la connexion humaine.
-          <img src="images/lieu.png" class="article__img" alt="Chat café">
+        Notre bar à chats offre une atmosphère unique où détente et affection féline se mélangent.
+        Inspiré par <strong> Café Chat l'Heureux à Montréal</strong>, cet espace met en valeur le bien-être animal.
         </p>
-
-        <p>
-          Dans ces cafés, chaque chat possède sa propre personnalité, rendant l'expérience différente à chaque visite. Certains félins se montrent joueurs, tandis que d’autres préfèrent dormir paisiblement près d’une fenêtre ensoleillée.
-          <img src="images/chat heureux.png" class="article__img" alt="Chat relax">
-        </p>
-
-      </article>
-         <article class="article__colonne">
-
-        <p>
-          L'objectif principal d'un bar à chats est d'offrir un environnement calme, idéal pour étudier, discuter ou simplement prendre un moment pour soi. 
-          Plusieurs cafés renommés au Québec et ailleurs collaborent même avec des refuges pour encourager l'adoption responsable.
-          <img src="images/adoption.jpg" class="article__img" alt="Chat adoption">
-        </p>
-
-        <p>
-          Aujourd'hui, les bars à chats sont bien plus qu'un simple café : ce sont des lieux sociaux, communautaires et relaxants. 
-          Une tasse de thé, un brownie… et un chat sur les genoux : le combo parfait!
-          <img src="images/dessert chat.png" class="article__img" alt="Chats mignons">
-      </p>
-
+      </div>
     </article>
-</div>
+
+
+<!----------------Deuxieme article-------------->
+        
+       <article class="article">
+          <figure class="article__figure">
+            <img class="article__img" src="images/chat heureux.png" alt="">
+            <figcaption>Chats détendus</figcaption>
+          </figure>
+
+        <div class="article__texte">
+          <h3>Le bien-être des chats</h3>
+          <p>
+            Chaque chat possède sa propre personnalité : certains sont joueurs, d'autres préfèrent dormir près d'une fenêtre.
+            Leur confort est essentiel afin d'offrir une expérience agréable aux visiteurs.
+          </p>
+        </div>
+      </article>
+    
+    <!------------------Troixieme Article------------------->
+      <article class="article">
+        <figure class="article__figure">
+          <img class="article__img" src="images/adoption.jpg" alt="">
+          <figcaption>Encourager l'adoption responsable</figcaption>
+        </figure>
+
+        <div class="article__texte">
+          <h3>Un lieu engagé</h3>
+          <p>
+            Notre bar à chats collabore avec des refuges locaux pour encourager l'adoption
+            responsable et offrir une seconde chance à des animaux en recherche d'un foyer.
+          </p>
+        </div>
+      </article>
+
+      <!-- Quatrieme Article -->
+      <article class="article">
+        <figure class="article__figure">
+          <img class="article__img" src="images/dessert chat.png" alt="">
+          <figcaption>Relaxation & petits plaisirs</figcaption>
+        </figure>
+
+        <div class="article__texte">
+          <h3>Détente gourmande</h3>
+          <p>
+            Une tasse chaude, un dessert maison… et un chat sur les genoux : le combo parfait
+            pour passer un moment de douceur et de calme.
+          </p>
+        </div>
+      </article>
+    
+    </div>
 
   </section>
 </div>
@@ -242,7 +286,7 @@
               title="Chat Café Heureux Montreal"
               allowfullscreen>
             </iframe>
-            <h3>Chat Café Heureux,  "J'aime trop bien!" review.</h3>
+            <h3>Chat Café Heureux, "J'aime trop bien!" review.</h3>
         </div>
 
         <div class="video-item">
@@ -270,7 +314,7 @@
   <section class="centre galerie-section" id="galerie">
 
     <h2 class="galerie__titre">Galerie des Chats</h2>
-
+    
     <div class="galerie__images">
       <img src="images/mur de chat.jpg" alt="Chat 1">
       <img src="images/chats.jpg" alt="Chat 2">
