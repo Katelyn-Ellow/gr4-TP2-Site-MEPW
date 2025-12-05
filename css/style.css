@@ -272,8 +272,10 @@ flex: 0 0 300px
 }
 
 /* ----------------------- ARTICLE ----------------------- */
-.article-section {
-  padding: 40px 20px;
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
 .article__titre-principal {
