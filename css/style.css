@@ -30,7 +30,7 @@ figure {
 
 img {
   display: block;
-  width: 100%;
+  /* width: 100%; */
 }
 
 /* --------Chq section occupe au minimumm toute la hauteure de l'ecran ---------*/
@@ -51,18 +51,28 @@ section {
 .centre {
   max-width: 1100px;
   margin: 0 auto;
-  background-color: rgba(255, 221, 171, 0.507);
+  background-color: rgba(255, 221, 171, 0.712);
   padding: 30px;
+}
+
+.hero__github{
+  margin: 30px;
+  display: block;
+  
 }
 
 /*------------------------------------- couleur d'arriere plan de chacune des sections ------------------------------- */
 
 .conteneur:nth-of-type(1) {
+  /*-----------HERO---------------*/
+
   /*----------------gradient pour relier les images-----*/
   background-image: url("../images/chat.png");
   /*background-repeat: no-repeat;*/
 }
 .conteneur:nth-of-type(2) {
+  /*-----------Tableau---------------*/
+
   /*----------------gradient pour relier les images-----*/
   /* background: linear-gradient(0deg, transparent 90%, #382f2f); */
 
@@ -71,17 +81,25 @@ section {
   background-size: cover;
   background-position: 60%;
 }
+/*-----------Article---------------*/
 .conteneur:nth-of-type(3) {
   background-color: rgb(96, 81, 60);
 }
+/*-----------Videos---------------*/
 .conteneur:nth-of-type(4) {
   background-color: rgb(58, 49, 57);
 }
+/*-----------Galeries---------------*/
 .conteneur:nth-of-type(5) {
-  background-color: rgb(228, 228, 228);
+  background-color: rgb(217, 199, 167);
 }
+/*-----------Inscription---------------*/
 .conteneur:nth-of-type(6) {
-  background-color: rgb(24, 19, 34);
+  background-color: rgb(255, 190, 105);
+}
+/*-----------Pied de Page---------------*/
+.conteneur:nth-of-type(7) {
+  background-color: rgb(147, 107, 111);
 }
 
 /*-------------------------------------------------------
@@ -104,10 +122,13 @@ section {
 /*-------premiere titre du section---*/
 .font-titre {
   font-family: "Fascinate Inline", system-ui;
-  font-weight: 400;
   font-style: normal;
   font-size: 40px;
   color: #382f2f;
+}
+
+.titres__hero{
+  margin-top: 10px;
 }
 
 /* -----------Boutton prin principal de menu----------*/
@@ -339,8 +360,6 @@ section {
 }
 
 .video-item {
-  width: 450px;
-  height: 280px;
   background: white;
   border-radius: 15px;
   padding: 15px;
@@ -360,8 +379,6 @@ section {
 }
 
 .video-item iframe {
-  width: 100%;
-  height: 200px;
   border-radius: 12px;
   border: none;
 }
@@ -388,8 +405,6 @@ section {
 }
 
 .galerie__images img {
-  width: 300px;
-  height: 300px;
   object-fit: cover;
   border-radius: 12px;
   transition: transform 0.2s;
@@ -412,33 +427,35 @@ section {
   padding: 25px 30px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   font-family: "Poppins", sans-serif;
-  width: 60%;
-  margin-left: 20%;
-  flex-direction: column;
-  gap: 60px;
+  margin: 0 auto;
+  max-width: 500px;
+  flex-shrink: 4;
+  
+
+
+
 }
 
 /* ------style du formulaire --------*/
 .formulaire__div {
-  margin-bottom: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 15px;
 }
 
 .formulaire__label {
   font-weight: bold;
   color: #5c4634;
-  width: 120px;
+  width: auto;
 }
 
 .formulaire__input {
-  flex: 1;
+  flex: auto;
   padding: 10px 12px;
   border: 1px solid #c9b097;
   border-radius: 10px;
-  background: white;
-  transition: 0.3s;
+  
+
 }
 
 .formulaire__input:focus {
@@ -450,9 +467,9 @@ section {
 fieldset {
   border: 2px solid #d6b38a;
   border-radius: 12px;
-  padding: 15px 20px;
-  margin: 20px 0;
   background: #fff7ef;
+  margin: 0;
+  
 }
 
 legend {
@@ -494,7 +511,7 @@ legend {
 
 /* Colonnes */
 .pied__colonne {
-  flex: 1 1 250px;
+  flex: 1 1 100px;
 }
 
 .pied__colonne h3 {
