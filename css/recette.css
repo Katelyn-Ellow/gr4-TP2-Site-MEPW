@@ -1,0 +1,131 @@
+/*------------------------------Icon maison----------------*/
+
+
+/* ------------------TITRES/ TEXTES ---------- */
+#recette h1,
+#recette h3 {
+  font-family: "DynaPuff", cursive;
+}
+
+#recette h1{
+  font-size: clamp(2.5rem, 5vw, 3.5rem); 
+  margin-bottom: 40px;
+}
+
+#recette h2{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  
+}
+#recette h3{
+  font-size: 1rem;
+  margin: 15px 0 5px;
+}
+
+#recette ol{
+  list-style: none;
+  padding-left: 0;
+}
+
+#recette li{
+  padding-left: 18px;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* ----------------------- ARTICLE RECETTE (FLEXBOX) ------------------- */
+.recette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 60px;
+
+}
+
+/* ------------------- IMAGE ---------------------------- */
+.recette__image {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+
+}
+/*----------------------le contenue---------------*/
+.recette__figure {
+  max-width: 320px;
+  width: 100%;
+  background-color: #fff4c4;
+  border: 2px solid #d4c37a;
+  padding: 10px;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+ 
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 300px;
+}
+
+
+/*-----------------------image----------------*/
+.recette__img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px
+}
+
+/*----------------------- sous titre------------------*/
+.recette__figcaption {
+  margin-top: 6px;
+  text-align: center;
+  font-weight: 600;
+}
+/*------------------------- les hovers------------------*/
+
+.recette:nth-of-type(odd) .recette__figure {
+  transform: rotate(-5deg);
+  transition: transform 0.3s ease;
+}
+
+.recette:nth-of-type(odd) .recette__figure:hover {
+  transform: rotate(0deg);
+}
+
+.recette:nth-of-type(even) .recette__figure {
+  transform: rotate(5deg);
+  transition: transform 0.3s ease;
+}
+
+.recette:nth-of-type(even) .recette__figure:hover {
+  transform: rotate(0deg);
+}
+/*--------------------------------------------------------------------*/
+
+
+/*----------------------------------Maison Icone----------------------------------*/
+.home__btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.home__btn img {
+  width: 36px;
+  height: 36px;
+  transition: filter 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* --------------- HOVER COLOR + ANIMATION ----------- */
+.home__btn:hover img {
+  /*---https://codeshack.io/--*/
+  filter: invert(36%) sepia(91%) saturate(749%) hue-rotate(1deg)
+    brightness(104%) contrast(102%);
+  transform: scale(1.1);
+}

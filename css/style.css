@@ -94,10 +94,16 @@ section {
 .conteneur:nth-of-type(6) {
   background-color: rgb(255, 190, 105);
 }
-/*-----------Pied de Page---------------*/
+/*-----------Recette Examen------------*/
 .conteneur:nth-of-type(7) {
+  background-color: rgb(214, 157, 162);
+}
+/*-----------Pied de Page---------------*/
+.conteneur:nth-of-type(8) {
   background-color: rgb(147, 107, 111);
 }
+
+
 
 /*-------------------------------------------------------
             SÉPARATEUR ENTRE LES SECTIONS
